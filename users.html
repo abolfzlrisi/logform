@@ -17,7 +17,8 @@
         <nav class="white z-depth-0 top-navbar">
             <div class="nav-wrapper">
                 <a href="#!" class="blue-text hide-on-med-and-up">User Mangement</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
+                        class="material-icons">menu</i></a>
                 <ul class=" hide-on-med-and-down">
                     <li><a href="/" class="blue-text">Home</a></li>
                     <li><a href="users.html" class="blue-text">User Mangement</a></li>
@@ -33,9 +34,9 @@
                     <div class="background">
                         <img src="assets/imgs/backg.jpg" class="w-100">
                     </div>
-                    <a ><img class="circle" src="assets/imgs/ava.webp"></a>
-                    <a ><span class="white-text name">abolfzl reisi</span></a>
-                    <a ><span class="white-text email">abolfzlreisi@gmail.com</span></a>
+                    <a><img class="circle" src="assets/imgs/ava.webp"></a>
+                    <a><span class="white-text name">abolfzl reisi</span></a>
+                    <a><span class="white-text email">abolfzlreisi@gmail.com</span></a>
                 </div>
             </li>
             <li>
@@ -58,33 +59,61 @@
             <li><a class="waves-effect" href="/">about us</a></li>
         </ul>
         <!-- content sevtion start-->
-        
-        <section id="top-actions-section"></section>
 
-        <!-- add button -->
-        <div class="contener-add">
-            <button class="waves-effect waves-light btn blue darken-3 button-add">
-                <i class="material-icons ">add</i>
-                ADD USER
-            </button>
-        </div>
-        <!-- search section -->
-        <div class="row">
-            <div class="input-field col s12">
-              <input id="search" type="text" class="validate">
-              <label for="search">
-                <i class="material-icons search-input">search</i>
-                Search
-              </label>
+        <section id="top-actions-section" class="row m-b-0">
+
+            <!-- add button -->
+            <div class="contener-add col s12 m3 l2">
+                <button class="waves-effect waves-light btn blue darken-3 button-add">
+                    <i class="material-icons ">add</i>
+                    ADD USER
+                </button>
             </div>
-        </div>
+            <!-- search section -->
+            <div class="row col s12 m9 l8">
+                <div class="input-field col s12">
+                    <input id="search" type="text" class="validate">
+                    <label for="search">
+                        <i class="material-icons search-input">search</i>
+                        Search
+                    </label>
+                </div>
+            </div>
+            <div class="col l2 hide-on-med-and-down"></div>
+        </section>
 
+
+        <section class="user-list-section">
+            <ul class="collapsible">
+                <li class="users_list_item">
+                    <div class="collapsible-header">
+                        <i class="material-icons blue-text darken-3 users_list_arrow_icon">arrow_drop_down_circle</i>
+                        Alirez hamidi
+                    </div>
+                    <div class="collapsible-body">
+                        <div class="p-all-5">
+                            <span class="f-bold">Username : </span>
+                            <span>Alireza</span>
+                        </div>
+                        <div class="p-all-5">
+                            <span class="f-bold">Email : </span>
+                            <span>Alireza@gmail.com</span>
+                        </div>
+                        <div class="p-all-5">
+                            <span class="f-bold">Address :</span>
+                            <span>ber - example street ...</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
         <!-- content sevtion end -->
 
     </div>
 
 
     <script src="assets/materialize/js/materialize.min.js"></script>
+    <script src="assets/js/users.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
