@@ -12,29 +12,63 @@
 
 <body>
     <div class="contener">
-        <nav>
+
+        <!-- navbar sevtion start-->
+        <nav class="white z-depth-0 top-navbar">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">ClE</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-              </ul>
+                <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+                <ul class=" hide-on-med-and-down">
+                    <li><a href="/" class="blue-text">Home</a></li>
+                    <li><a href="users.html" class="blue-text">User Mangement</a></li>
+                    <li><a href="https://github.com/abolfzlrisi" class="blue-text">Git hub</a></li>
+                    <li><a href="https://t.me/MR_fih" class="blue-text">about</a></li>
+                </ul>
             </div>
-          </nav>
-        
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
+        </nav>
+        <!-- navbar sevtion end -->
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="assets/imgs/backg.jpg" class="w-100">
+                    </div>
+                    <a ><img class="circle" src="assets/imgs/ava.webp"></a>
+                    <a ><span class="white-text name">abolfzl reisi</span></a>
+                    <a ><span class="white-text email">abolfzlreisi@gmail.com</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="https://t.me/MR_fih"><i class="material-icons">insert_link</i>telegram</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/aboolfzl.risi?">
+                    <i class="material-icons">insert_link</i>instagram
+                </a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a class="subheader">Subheader</a>
+            </li>
+            <li><a class="waves-effect" href="/">Home</a></li>
+            <li><a class="waves-effect" href="users.html">User</a></li>
+            <li><a class="waves-effect" href="/">Services</a></li>
+            <li><a class="waves-effect" href="/">about us</a></li>
+        </ul>
+        <!-- home sevtion start-->
+        <section class="flex-c-m">
+            <img src="assets/imgs/avatarrr.jpeg" class="w-100 max-w filter_shadow">
+            <a href="https://t.me/MR_fih" class="waves-effect waves-light btn blue darken-3">programing tutorial</a>
+            <a href="users.html" class="waves-effect waves-light btn blue darken-3">Usees Manger</a>
+        </section>
+
+        <!-- home sevtion end -->
 
     </div>
 
-    
+
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
